@@ -1,0 +1,1 @@
+{"mindList":[{"mid":"m1014236","mName":"vsh","level":"l1","salary":25000.0},{"mid":"m1014437","mName":"vsh1","level":"l5","salary":125000.0},{"mid":"m1015","mName":"vsh6","level":"l7","salary":225000.0}]}

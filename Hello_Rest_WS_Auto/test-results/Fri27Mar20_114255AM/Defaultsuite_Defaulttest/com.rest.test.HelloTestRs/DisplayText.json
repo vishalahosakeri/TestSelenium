@@ -1,0 +1,24 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "GET:http://localhost:8080/Server_hello_jersey/rest-points/show-on-screen/vsh",
+      "args": [
+        "/Server_hello_jersey/rest-points/show-on-screen/vsh",
+        null
+      ],
+      "result": "GET http://localhost:8080/Server_hello_jersey/rest-points/show-on-screen/vsh returned a response status of 200 OK",
+      "subLogs": [
+        {
+          "args": [
+            "Client out-bound request\nGET http://localhost:8080/Server_hello_jersey/rest-points/show-on-screen/vsh\nAccept: text/plain\n"
+          ],
+          "result": "Client in-bound response\n200\nKeep-Alive: timeout=20\nTransfer-Encoding: chunked\nConnection: keep-alive\nDate: Fri, 27 Mar 2020 18:42:56 GMT\nContent-Type: text/plain\n\nhellovsh\n",
+          "subLogs": [],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": []
+}

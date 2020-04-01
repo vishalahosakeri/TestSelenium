@@ -1,0 +1,30 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "userRequests",
+      "args": [
+        "[getAll.minds]"
+      ],
+      "result": "fail",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "user requests 'getAll.minds'",
+      "type": "TestStepFail",
+      "duration": 247,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused (Connection refused)",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

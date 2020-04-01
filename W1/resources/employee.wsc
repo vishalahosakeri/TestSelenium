@@ -1,0 +1,4 @@
+get.employee = {\"headers\":{},\"endPoint\":\"http://dummy.restapiexample.com/employees.json\",\"baseUrl\":\"http://dummy.restapiexample.com\",\"method\":\"GET\",\"query-parameters\":{},\"body\":\"\",\"form-parameters\":{}}
+
+
+

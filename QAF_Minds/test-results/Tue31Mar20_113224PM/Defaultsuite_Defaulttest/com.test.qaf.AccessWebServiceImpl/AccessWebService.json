@@ -1,0 +1,24 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "GET:http://localhost:8080/Server_Minds_RS/rest-api/details/getAll",
+      "args": [
+        "/Server_Minds_RS/rest-api/details/getAll",
+        null
+      ],
+      "result": "GET http://localhost:8080/Server_Minds_RS/rest-api/details/getAll returned a response status of 200 OK",
+      "subLogs": [
+        {
+          "args": [
+            "Client out-bound request\nGET http://localhost:8080/Server_Minds_RS/rest-api/details/getAll\n"
+          ],
+          "result": "Client in-bound response\n200\nKeep-Alive: timeout=20\nConnection: keep-alive\nContent-Length: 204\nDate: Wed, 01 Apr 2020 06:32:26 GMT\nContent-Type: application/json\n\n{\"mindList\":[{\"mid\":\"m1014236\",\"mName\":\"vsh\",\"level\":\"l1\",\"salary\":25000.0},{\"mid\":\"m1014437\",\"mName\":\"vsh1\",\"level\":\"l5\",\"salary\":125000.0},{\"mid\":\"m1015\",\"mName\":\"vsh6\",\"level\":\"l7\",\"salary\":225000.0}]}\n",
+          "subLogs": [],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": []
+}

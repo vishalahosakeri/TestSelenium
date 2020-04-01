@@ -1,0 +1,34 @@
+{
+  "total": 1,
+  "pass": 1,
+  "fail": 0,
+  "skip": 0,
+  "classes": [
+    "com.test.qaf.AccessWebServiceImpl"
+  ],
+  "envInfo": {
+    "browser-actual-capabilities": {},
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "15",
+      "qaf-Build-Time": "20-Nov-2019 22:28:06",
+      "qaf-Version": "2.1"
+    },
+    "run-parameters": {
+      "baseurl": "http://localhost:8080/Server_Minds_RS/rest-api/details",
+      "resources": "resources"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "11.0.3",
+      "os.arch": "x86_64",
+      "host": "sanvijanvis-mbp.lan",
+      "os.name": "Mac OS X",
+      "user.name": "sanvijanvi",
+      "os.version": "10.15"
+    }
+  },
+  "startTime": 1585754953313,
+  "endTime": 1585765386151
+}

@@ -1,0 +1,20 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "test",
+        "resultFileName": "Test",
+        "sign": "TestWs.test()[pri:0, instance:TestWs@26d9b808]"
+      },
+      "dependsOn": [],
+      "startTime": 1585235015031,
+      "duration": 623,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

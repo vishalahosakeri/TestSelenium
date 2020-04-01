@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>user requests 'getAll.minds'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>response should have status 'OK'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Response Status
+Expected: equalToIgnoringCase("OK")
+     Actual: was OK</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>user requests 'get.mind'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>response should have status 'OK'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Response Status
+Expected: equalToIgnoringCase("OK")
+     Actual: was OK</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>user requests 'add.data.call'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>user requests 'add.data.call'</div></div>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-04-01T11:23:05 PDT" name="Default suite" finished-at="2020-04-01T11:23:06 PDT" duration-ms="507">
+    <groups>
+    </groups>
+    <test started-at="2020-04-01T11:23:05 PDT" name="Default test" finished-at="2020-04-01T11:23:06 PDT" duration-ms="507">
+      <class name="com.test.qaf.AccessWebServiceImpl">
+        <test-method is-config="true" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.test.qaf.AccessWebServiceImpl@7d900ecf]" started-at="2020-04-01T11:23:05 PDT" name="setupSuit" finished-at="2020-04-01T11:23:05 PDT" duration-ms="18" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@768fc0f2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method is-config="true" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.test.qaf.AccessWebServiceImpl@7d900ecf]" started-at="2020-04-01T11:23:05 PDT" name="setupTest" finished-at="2020-04-01T11:23:05 PDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@768fc0f2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:com.test.qaf.AccessWebServiceImpl@7d900ecf]" started-at="2020-04-01T11:23:05 PDT" name="setup" finished-at="2020-04-01T11:23:05 PDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@768fc0f2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.test.qaf.AccessWebServiceImpl@7d900ecf]" started-at="2020-04-01T11:23:05 PDT" name="setupMethod" finished-at="2020-04-01T11:23:05 PDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.qaf.AccessWebServiceImpl.accessWebService() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@768fc0f2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="accessWebService()[pri:0, instance:com.test.qaf.AccessWebServiceImpl@7d900ecf]" started-at="2020-04-01T11:23:05 PDT" name="accessWebService" finished-at="2020-04-01T11:23:05 PDT" duration-ms="341" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>user requests 'getAll.minds'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>response should have status 'OK'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Response Status
+Expected: equalToIgnoringCase("OK")
+     Actual: was OK</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>user requests 'get.mind'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>response should have status 'OK'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Response Status
+Expected: equalToIgnoringCase("OK")
+     Actual: was OK</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>user requests 'add.data.call'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>user requests 'add.data.call'</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- accessWebService -->
+        <test-method is-config="true" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.test.qaf.AccessWebServiceImpl@7d900ecf]" started-at="2020-04-01T11:23:06 PDT" name="afterSuit" finished-at="2020-04-01T11:23:06 PDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@768fc0f2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- com.test.qaf.AccessWebServiceImpl -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

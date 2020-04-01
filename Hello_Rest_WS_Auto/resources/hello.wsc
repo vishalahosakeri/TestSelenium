@@ -1,0 +1,1 @@
+get.hello = {\"headers\":{},\"endPoint\":\"http://localhost:8080/hello.text\",\"baseUrl\":\"http://localhost:8080\",\"method\":\"GET\",\"query-parameters\":{},\"body\":\"\",\"form-parameters\":{}}

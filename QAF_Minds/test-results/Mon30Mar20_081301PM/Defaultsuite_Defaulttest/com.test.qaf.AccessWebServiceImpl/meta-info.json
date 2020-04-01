@@ -1,0 +1,20 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "AccessWebService",
+        "name": "accessWebService",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1585624383659,
+      "duration": 3927,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

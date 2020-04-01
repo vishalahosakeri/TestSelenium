@@ -1,0 +1,8 @@
+SCENARIO: Get all employee data
+META-DATA: {"description": "Get all employee data using webservice","groups": ["WS"],"key":"testdata.validClient"}
+	
+	Given user requests 'get.hello' with data '${args[0]}'
+	Then response should have status 'success'
+	
+
+END

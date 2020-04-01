@@ -1,0 +1,41 @@
+#%RAML 0.8
+title: Hello API
+version: "1.0.0"
+baseUri: "http://localhost:8080/Server_Minds_RS/rest-api/details/"
+/getAll.JSON: 
+    displayName: Display Minds
+    get: 
+        displayName: Display Minds
+        
+/getMind/{mid}.json:
+
+        displayName: Get Mind
+    get: 
+        displayName: Get Mind	
+/add:
+displayName: Add Mind       
+       post: 
+        displayName: Add Mind
+        body: 
+            application/x-www-form-urlencoded: 
+                formParameters:
+                    formParameters:
+                    mid:
+                        description: mind id
+                        required: true
+                        type: string
+                    mName:
+                        description: mind Name
+                        required: true
+                        type: string
+                    level:
+						description: mind level
+                        required: true
+                        type: string
+                        
+                    salary:
+						description: mind salary
+                        required: true
+                        type: double
+        
+                

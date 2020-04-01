@@ -1,0 +1,58 @@
+{
+  "methods": [
+    {
+      "index": 0,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "AddMind",
+        "name": "Add Mind",
+        "groups": [
+          "scenario"
+        ],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1585754085100,
+      "duration": 0,
+      "result": "skip",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "GetMind",
+        "name": "Get Mind",
+        "groups": [
+          "scenario"
+        ],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1585754085215,
+      "duration": 0,
+      "result": "skip",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "GetAllEmployeeData",
+        "name": "Get all employee data",
+        "groups": [
+          "scenario"
+        ],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1585754085248,
+      "duration": 0,
+      "result": "skip",
+      "passPer": 0.0
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "displayText",
+        "resultFileName": "DisplayText",
+        "sign": "HelloTestRs.displayText()[pri:0, instance:com.rest.test.HelloTestRs@26d9b808]"
+      },
+      "dependsOn": [],
+      "startTime": 1585703470917,
+      "duration": 233,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

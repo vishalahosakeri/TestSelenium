@@ -1,0 +1,43 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "GET:http://localhost:8080/Server_Minds_RS/rest-api/minds/getAll",
+      "args": [
+        "/Server_Minds_RS/rest-api/minds/getAll",
+        null
+      ],
+      "result": "GET http://localhost:8080/Server_Minds_RS/rest-api/minds/getAll returned a response status of 200 OK",
+      "subLogs": [
+        {
+          "args": [
+            "Client out-bound request\nGET http://localhost:8080/Server_Minds_RS/rest-api/minds/getAll\n"
+          ],
+          "result": "Client in-bound response\n200\nKeep-Alive: timeout=20\nConnection: keep-alive\nContent-Length: 263\nDate: Tue, 31 Mar 2020 00:24:33 GMT\nContent-Type: application/xml\n\n<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mindss><Minds><mid>m1014235</mid><mName>Vishala</mName><level>l1</level><salary>25000.0</salary></Minds><Minds><mid>m1014735</mid><mName>Anu</mName><level>l5</level><salary>150000.0</salary></Minds></mindss>\n",
+          "subLogs": [],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "GET:http://localhost:8080/Server_Minds_RS/rest-api/minds/getMind/m1014235",
+      "args": [
+        "/Server_Minds_RS/rest-api/minds/getMind/m1014235",
+        null
+      ],
+      "result": "GET http://localhost:8080/Server_Minds_RS/rest-api/minds/getMind/m1014235 returned a response status of 200 OK",
+      "subLogs": [
+        {
+          "args": [
+            "Client out-bound request\nGET http://localhost:8080/Server_Minds_RS/rest-api/minds/getMind/m1014235\n"
+          ],
+          "result": "Client in-bound response\n200\nKeep-Alive: timeout=20\nConnection: keep-alive\nContent-Length: 152\nDate: Tue, 31 Mar 2020 00:24:33 GMT\nContent-Type: application/xml\n\n<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><Minds><mid>m1014235</mid><mName>Vishala</mName><level>l1</level><salary>25000.0</salary></Minds>\n",
+          "subLogs": [],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": []
+}

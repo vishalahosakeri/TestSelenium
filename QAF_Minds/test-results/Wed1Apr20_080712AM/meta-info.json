@@ -1,0 +1,14 @@
+{
+  "name": "QAF Demo",
+  "status": "unstable",
+  "tests": [
+    "QAFDemo_BDDTest",
+    "QAFDemo_JAVATest"
+  ],
+  "total": 3,
+  "pass": 0,
+  "fail": 0,
+  "skip": 3,
+  "startTime": 1585753632689,
+  "endTime": 1585753632984
+}

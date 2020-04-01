@@ -1,0 +1,44 @@
+SCENARIO: Get all employee data
+META-DATA: {"description": "Get all employee data using webservice","groups": ["WS"],"key":"testdata.validClient"}
+	
+	Given user requests 'getAll.minds'
+	Then response should have status 'success'
+	
+
+END
+
+SCENARIO: Get Mind
+META-DATA: {"description": "Get  employee data using webservice","groups": ["WS"],"key":"testdata.validClient"}
+	
+	Given user requests 'get.mind' with data '${args[0]}'
+	Then response should have status 'OK'
+	
+
+END
+
+SCENARIO: Add Mind
+META-DATA: {"description": "Add  employee data using webservice","groups": ["WS"],"key":"testdata.validClient"}
+	
+	Given user requests 'add.data.call'
+	Then response should have status 'OK'
+	
+
+END
+
+SCENARIO: Delete Mind
+META-DATA: {"description": "Delete  employee data using webservice","groups": ["WS"],"key":"testdata.validClient"}
+	
+	Given user requests 'delete.mind' with data '${args[0]}'
+	Then response should have status 'OK'
+	
+
+END
+
+SCENARIO: Put Mind
+META-DATA: {"description": "Update  employee data using webservice","groups": ["WS"],"key":"testdata.validClient"}
+	
+	Given user requests 'update.mind' with data '${args[0]}'
+	Then response should have status 'OK'
+	
+
+END
