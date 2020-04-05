@@ -1,0 +1,32 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://www.amazon.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1577
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "get '/'",
+      "type": "TestStepPass",
+      "duration": 3440,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

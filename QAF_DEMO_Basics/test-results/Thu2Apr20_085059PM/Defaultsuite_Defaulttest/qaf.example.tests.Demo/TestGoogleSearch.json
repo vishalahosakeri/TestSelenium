@@ -1,0 +1,61 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://www.google.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1818
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=About, using=link text}"
+      ],
+      "result": "id: 0.9031925306495128-1",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.linkText: About",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.linkText: About",
+        "{\"id\":\"0.9031925306495128-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 3359
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "get '/'",
+      "type": "TestStepPass",
+      "duration": 3362,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

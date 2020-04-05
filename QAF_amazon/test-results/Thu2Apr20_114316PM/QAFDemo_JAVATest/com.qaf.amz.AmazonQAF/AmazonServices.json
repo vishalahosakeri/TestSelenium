@@ -1,0 +1,136 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://www.amazon.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1483
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=nav-hamburger-menu, using=id}"
+      ],
+      "result": "id: 0.14884578878932797-1",
+      "subLogs": [],
+      "duration": 57
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.id: nav-hamburger-menu",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.id: nav-hamburger-menu",
+        "{\"id\":\"0.14884578878932797-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 256
+    },
+    {
+      "commandName": "setTimeout",
+      "args": [
+        "{type=implicit, ms=15000}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 4
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=#hmenu-content ul.hmenu.hmenu-visible li a.hmenu-item, using=css selector}"
+      ],
+      "result": "id: 0.14884578878932797-2",
+      "subLogs": [],
+      "duration": 143
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.cssSelector: #hmenu-content ul.hmenu.hmenu-visible li a.hmenu-item",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.cssSelector: #hmenu-content ul.hmenu.hmenu-visible li a.hmenu-item",
+        "{\"id\":\"0.14884578878932797-2\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 2716
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@id='hmenu-content']/ul[34]/li[13]/a, using=xpath}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='hmenu-content']/ul[34]/li[13]/a\"}\n  (Session info: chrome=80.0.3987.149)\n  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Mac OS X 10.15.0 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 15.07 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'sanvijanvis-mbp.lan', ip: '192.168.86.153', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15', java.version: '11.0.3'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:59671}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=/var/folders/ql/ds02c6jn4kzbc08btxntjvhr0000gn/T/.com.google.Chrome.CMmZ9H}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=80.0.3987.149, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]\nSession ID: 762483a71ebe1e60fd47460c67bfa876\n*** Element info: {Using=xpath, value=//*[@id='hmenu-content']/ul[34]/li[13]/a}",
+      "subLogs": [],
+      "duration": 15069
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //*[@id='hmenu-content']/ul[34]/li[13]/a",
+        "{\"id\":\"-1\"}"
+      ],
+      "result": "Timed out after 10 seconds waiting for presence of element located by: By.xpath: //*[@id='hmenu-content']/ul[34]/li[13]/a\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'sanvijanvis-mbp.lan', ip: '192.168.86.153', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15', java.version: '11.0.3'\nDriver info: driver.version: QAFExtendedWebDriver",
+      "subLogs": [],
+      "duration": 1053285701
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//*[@id='hmenu-content']/ul[34]/li[13]/a, using=xpath}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 11732
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "get '/'",
+      "type": "TestStepPass",
+      "duration": 2964,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "java.lang.NullPointerException",
+      "type": "Fail",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "java.lang.NullPointerException\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:397)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:504)\n\tat org.openqa.selenium.By$ByXPath.findElements(By.java:356)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:351)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.isPresent(QAFExtendedWebElement.java:360)\n\tat com.qmetry.qaf.automation.ui.webdriver.ElementMetaDataListener.onFailure(ElementMetaDataListener.java:180)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.onFailure(QAFExtendedWebElement.java:534)\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:271)\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)\n\tat com.qaf.amzServices.AmazonServiceImpl.selectCategory(AmazonServiceImpl.java:35)\n\tat com.qaf.amz.AmazonQAF.amazonServices(AmazonQAF.java:24)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1540)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:770)\n\tat org.testng.TestRunner.run(TestRunner.java:591)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:402)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:304)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1102)\n\tat org.testng.TestNG.runSuites(TestNG.java:1032)\n\tat org.testng.TestNG.run(TestNG.java:1000)\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)\n"
+}

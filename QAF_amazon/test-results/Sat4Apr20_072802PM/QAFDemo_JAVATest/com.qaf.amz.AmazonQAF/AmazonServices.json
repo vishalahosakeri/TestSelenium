@@ -1,0 +1,166 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://www.amazon.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1365
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=nav-hamburger-menu, using=id}"
+      ],
+      "result": "id: 0.9019498879630199-1",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.id: nav-hamburger-menu",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.id: nav-hamburger-menu",
+        "{\"id\":\"0.9019498879630199-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 880
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=#hmenu-content ul.hmenu.hmenu-visible li:nth-child(4) a.hmenu-item, using=css selector}"
+      ],
+      "result": "id: 0.9019498879630199-2",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.cssSelector: #hmenu-content ul.hmenu.hmenu-visible li:nth-child(4) a.hmenu-item",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.cssSelector: #hmenu-content ul.hmenu.hmenu-visible li:nth-child(4) a.hmenu-item",
+        "{\"id\":\"0.9019498879630199-2\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 399
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=div#nav-subnav a.nav-a:nth-child(5), using=css selector}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"div#nav-subnav a.nav-a:nth-child(5)\"}\n  (Session info: chrome=80.0.3987.149)\n  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Mac OS X 10.15.0 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 24 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'sanvijanvis-mbp.lan', ip: '192.168.86.163', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15', java.version: '11.0.3'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:65203}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=/var/folders/ql/ds02c6jn4kzbc08btxntjvhr0000gn/T/.com.google.Chrome.TtZTWM}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=80.0.3987.149, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]\nSession ID: 789c4244b1cba0efdf1173be362be4dc\n*** Element info: {Using=css selector, value=div#nav-subnav a.nav-a:nth-child(5)}",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=div#nav-subnav a.nav-a:nth-child(5), using=css selector}"
+      ],
+      "result": "id: 0.988280547531202-1",
+      "subLogs": [],
+      "duration": 178
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.cssSelector: div#nav-subnav a.nav-a:nth-child(5)",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.cssSelector: div#nav-subnav a.nav-a:nth-child(5)",
+        "{\"id\":\"0.988280547531202-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 900
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=#a-page div.left_nav.browseBox ul li a, using=css selector}"
+      ],
+      "result": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#a-page div.left_nav.browseBox ul li a\"}\n  (Session info: chrome=80.0.3987.149)\n  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Mac OS X 10.15.0 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 30 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'sanvijanvis-mbp.lan', ip: '192.168.86.163', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15', java.version: '11.0.3'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:65203}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=/var/folders/ql/ds02c6jn4kzbc08btxntjvhr0000gn/T/.com.google.Chrome.TtZTWM}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=80.0.3987.149, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]\nSession ID: 789c4244b1cba0efdf1173be362be4dc\n*** Element info: {Using=css selector, value=#a-page div.left_nav.browseBox ul li a}",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=#a-page div.left_nav.browseBox ul li a, using=css selector}"
+      ],
+      "result": "id: 0.8385904681762713-1",
+      "subLogs": [],
+      "duration": 158
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.cssSelector: #a-page div.left_nav.browseBox ul li a",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.cssSelector: #a-page div.left_nav.browseBox ul li a",
+        "{\"id\":\"0.8385904681762713-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 1190
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "get '/'",
+      "type": "TestStepPass",
+      "duration": 2952,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "AmazonServices",
+        "name": "amazonServices",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1586053035785,
+      "duration": 7421,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

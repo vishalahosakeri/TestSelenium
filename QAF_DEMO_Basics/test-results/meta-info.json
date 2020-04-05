@@ -1,6 +1,41 @@
 {
   "reports": [
     {
+      "name": "Default suite",
+      "dir": "test-results/Thu2Apr20_085059PM",
+      "startTime": 1585885859350
+    },
+    {
+      "name": "QAF Demo",
+      "dir": "test-results/Thu2Apr20_085041PM",
+      "startTime": 1585885841293
+    },
+    {
+      "name": "QAF Demo",
+      "dir": "test-results/Thu2Apr20_085025PM",
+      "startTime": 1585885825635
+    },
+    {
+      "name": "QAF Demo",
+      "dir": "test-results/Thu2Apr20_084903PM",
+      "startTime": 1585885743668
+    },
+    {
+      "name": "QAF Demo",
+      "dir": "test-results/Thu2Apr20_084848PM",
+      "startTime": 1585885728313
+    },
+    {
+      "name": "QAF Demo",
+      "dir": "test-results/Thu2Apr20_084837PM",
+      "startTime": 1585885717108
+    },
+    {
+      "name": "QAF Demo",
+      "dir": "test-results/Thu2Apr20_084814PM",
+      "startTime": 1585885694164
+    },
+    {
       "name": "QAF Demo",
       "dir": "test-results/Wed1Apr20_073824AM",
       "startTime": 1585751904604

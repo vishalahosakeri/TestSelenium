@@ -85,6 +85,7 @@ public class AmazonServices {
 		try {
 			driver.findElement(By.id("nav-hamburger-menu")).click();
 			driver.findElement(By.xpath("//*[@id=\"hmenu-content\"]/ul[10]/li[4]/a")).getText();
+			System.out.println(driver.findElement(By.xpath("//*[@id=\"hmenu-content\"]/ul[10]/li[4]/a")).getText());
 			driver.findElement(By.xpath("//*[@id='hmenu-content']/ul[34]/li[13]/a")).click();
 			driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 			driver.findElement(By.xpath("//*[@id=\"hmenu-content\"]/ul[10]/li[4]/a")).click();

@@ -1,0 +1,61 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://www.amazon.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1501
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=nav-link-accountList, using=id}"
+      ],
+      "result": "id: 0.4428040399956241-1",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.id: nav-link-accountList",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.id: nav-link-accountList",
+        "{\"id\":\"0.4428040399956241-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 250
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "get '/'",
+      "type": "TestStepPass",
+      "duration": 3189,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

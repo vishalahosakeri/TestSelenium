@@ -1,0 +1,128 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://www.amazon.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1582
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=nav-hamburger-menu, using=id}"
+      ],
+      "result": "id: 0.14468693279574674-1",
+      "subLogs": [],
+      "duration": 58
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.id: nav-hamburger-menu",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.id: nav-hamburger-menu",
+        "{\"id\":\"0.14468693279574674-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 681
+    },
+    {
+      "commandName": "setTimeout",
+      "args": [
+        "{type=implicit, ms=15000}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 6
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=#hmenu-content ul.hmenu.hmenu-visible li:nth-child(14) a.hmenu-item, using=css selector}"
+      ],
+      "result": "id: 0.14468693279574674-2",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.cssSelector: #hmenu-content ul.hmenu.hmenu-visible li:nth-child(14) a.hmenu-item",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.cssSelector: #hmenu-content ul.hmenu.hmenu-visible li:nth-child(14) a.hmenu-item",
+        "{\"id\":\"0.14468693279574674-2\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 97
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@id='hmenu-content']/ul[34]/li[13]/a, using=xpath}"
+      ],
+      "result": "id: 0.14468693279574674-3",
+      "subLogs": [],
+      "duration": 67
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.xpath: //*[@id='hmenu-content']/ul[34]/li[13]/a",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //*[@id='hmenu-content']/ul[34]/li[13]/a",
+        "{\"id\":\"0.14468693279574674-3\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 79
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "get '/'",
+      "type": "TestStepPass",
+      "duration": 3256,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

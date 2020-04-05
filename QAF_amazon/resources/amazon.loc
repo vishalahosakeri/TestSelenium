@@ -1,0 +1,9 @@
+amz.signIn.link = {\"locator\":\"id=nav-link-accountList\",\"desc\":\"About link\"}
+amz.menu.click = {\"locator\":\"id=nav-hamburger-menu\",\"desc\":\"About link\"}
+amz.select.category = {\"locator\":\"css=#hmenu-content ul.hmenu.hmenu-visible li:nth-child(4) a.hmenu-item\",\"desc\":\"Order Amount\"}
+amz.select.subCat = {\"locator\":\"css=div#nav-subnav a.nav-a:nth-child(5)",\"desc\":\"About select\"}
+amz.age.select = {\"locator\":\"css=#a-page div.left_nav.browseBox ul li a",\"desc\":\"Age select\"}
+amz.book = {\"locator\":\"css=.acswidget-carousel .acs-product-block__product-image a",\"desc\":\"book select\"}
+amz.cart.button = {\"locator\":\"id=add-to-cart-button",\"desc\":\"book select\"}
+
+

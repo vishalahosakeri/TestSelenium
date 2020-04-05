@@ -1,0 +1,99 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://www.amazon.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1425
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=nav-hamburger-menu, using=id}"
+      ],
+      "result": "id: 0.5452459329261163-1",
+      "subLogs": [],
+      "duration": 68
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.id: nav-hamburger-menu",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.id: nav-hamburger-menu",
+        "{\"id\":\"0.5452459329261163-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 758
+    },
+    {
+      "commandName": "setTimeout",
+      "args": [
+        "{type=implicit, ms=15000}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 4
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=#hmenu-content ul.hmenu.hmenu-visible li:nth-child(13) a.hmenu-item, using=css selector}"
+      ],
+      "result": "id: 0.5452459329261163-2",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.cssSelector: #hmenu-content ul.hmenu.hmenu-visible li:nth-child(13) a.hmenu-item",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.cssSelector: #hmenu-content ul.hmenu.hmenu-visible li:nth-child(13) a.hmenu-item",
+        "{\"id\":\"0.5452459329261163-2\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 140
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "get '/'",
+      "type": "TestStepPass",
+      "duration": 3140,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://www.amazon.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1766
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=nav-link-accountList, using=id}"
+      ],
+      "result": "id: 0.4338180068260209-1",
+      "subLogs": [],
+      "duration": 72
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.id: nav-link-accountList",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.id: nav-link-accountList",
+        "{\"id\":\"0.4338180068260209-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 855
+    },
+    {
+      "commandName": "sendKeys",
+      "args": [
+        "[vishala.hosakeri@gmail.com, userName.input]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=ap_email, using=id}"
+          ],
+          "result": "id: 0.18957487497416015-1",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: ap_email",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.id: ap_email",
+            "{\"value\":[\"vishala.hosakeri@gmail.com\"],\"id\":\"0.18957487497416015-1\"}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 195
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[login.continue.click]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=continue, using=id}"
+          ],
+          "result": "id: 0.18957487497416015-2",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: continue",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: continue",
+            "{\"id\":\"0.18957487497416015-2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 304
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "get '/'",
+      "type": "TestStepPass",
+      "duration": 3291,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "sendKeys 'vishala.hosakeri@gmail.com' into 'userName.input'",
+      "type": "TestStepPass",
+      "duration": 216,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'login.continue.click'",
+      "type": "TestStepPass",
+      "duration": 320,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

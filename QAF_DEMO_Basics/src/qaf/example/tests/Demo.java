@@ -15,7 +15,7 @@ public class Demo extends WebDriverTestCase{
 		
 		GoogleLoc googleLoc = new GoogleLoc();
 		
-		googleLoc.launchPage();
+		//googleLoc.launchPage();
 		googleLoc.getClikLink().click();
 		
 	}

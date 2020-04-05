@@ -5,8 +5,8 @@
     <classes>
       <class name="amazon.AmazonServices">
       	<methods>
-<!--       		<exclude name="login"></exclude> -->
-<!--       		<exclude name="signInLink"></exclude> -->
+      		<exclude name="login"></exclude>
+      		<exclude name="signInLink"></exclude>
       	</methods>
       </class>
     </classes>

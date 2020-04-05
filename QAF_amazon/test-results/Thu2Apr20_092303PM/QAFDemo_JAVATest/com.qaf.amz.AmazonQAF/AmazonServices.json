@@ -1,0 +1,245 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://www.amazon.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1545
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=nav-link-accountList, using=id}"
+      ],
+      "result": "id: 0.8941484225790755-1",
+      "subLogs": [],
+      "duration": 65
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "By.id: nav-link-accountList",
+        "{}"
+      ],
+      "result": "OK",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.id: nav-link-accountList",
+        "{\"id\":\"0.8941484225790755-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 998
+    },
+    {
+      "commandName": "sendKeys",
+      "args": [
+        "[seleniumLearnVsh@gmail.com, userName.input]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=ap_email, using=id}"
+          ],
+          "result": "id: 0.40113229050188015-1",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: ap_email",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.id: ap_email",
+            "{\"value\":[\"seleniumLearnVsh@gmail.com\"],\"id\":\"0.40113229050188015-1\"}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 196
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[login.continue.click]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=continue, using=id}"
+          ],
+          "result": "id: 0.40113229050188015-2",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: continue",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: continue",
+            "{\"id\":\"0.40113229050188015-2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 580
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "sendKeys",
+      "args": [
+        "[sanu1$janu, password.input]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=ap_password, using=id}"
+          ],
+          "result": "id: 0.14847265424659883-1",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: ap_password",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.id: ap_password",
+            "{\"value\":[\"sanu1$janu\"],\"id\":\"0.14847265424659883-1\"}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 66
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[sigInsubmit.search]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=signInSubmit, using=id}"
+          ],
+          "result": "id: 0.14847265424659883-2",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "By.id: signInSubmit",
+            "{}"
+          ],
+          "result": "OK",
+          "subLogs": [],
+          "duration": -1
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: signInSubmit",
+            "{\"id\":\"0.14847265424659883-2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1460
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "get '/'",
+      "type": "TestStepPass",
+      "duration": 3146,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "sendKeys 'seleniumLearnVsh@gmail.com' into 'userName.input'",
+      "type": "TestStepPass",
+      "duration": 213,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'login.continue.click'",
+      "type": "TestStepPass",
+      "duration": 595,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "sendKeys 'sanu1$janu' into {loc}",
+      "type": "TestStepPass",
+      "duration": 83,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "click on 'sigInsubmit.search'",
+      "type": "TestStepPass",
+      "duration": 1474,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

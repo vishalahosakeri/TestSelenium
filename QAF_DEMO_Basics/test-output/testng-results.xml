@@ -5,47 +5,45 @@
       <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div></div>]]>
     </line>
   </reporter-output>
-  <suite started-at="2020-04-01T07:38:24 PDT" name="QAF Demo" finished-at="2020-04-01T07:38:32 PDT" duration-ms="7446">
+  <suite started-at="2020-04-02T20:50:59 PDT" name="Default suite" finished-at="2020-04-02T20:51:06 PDT" duration-ms="6926">
     <groups>
     </groups>
-    <test started-at="2020-04-01T07:38:24 PDT" name="BDD Test" finished-at="2020-04-01T07:38:24 PDT" duration-ms="24">
-    </test> <!-- BDD Test -->
-    <test started-at="2020-04-01T07:38:24 PDT" name="JAVA Test" finished-at="2020-04-01T07:38:32 PDT" duration-ms="7364">
+    <test started-at="2020-04-02T20:50:59 PDT" name="Default test" finished-at="2020-04-02T20:51:06 PDT" duration-ms="6926">
       <class name="qaf.example.tests.Demo">
-        <test-method is-config="true" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:qaf.example.tests.Demo@cd1e646]" started-at="2020-04-01T07:38:24 PDT" name="setupSuit" finished-at="2020-04-01T07:38:24 PDT" duration-ms="26" status="PASS">
+        <test-method is-config="true" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:qaf.example.tests.Demo@8519cb4]" started-at="2020-04-02T20:50:59 PDT" name="setupSuit" finished-at="2020-04-02T20:50:59 PDT" duration-ms="18" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@3561c410]]>
+                <![CDATA[org.testng.TestRunner@5be49b60]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupSuit -->
-        <test-method is-config="true" signature="setupTest(org.testng.ITestContext)[pri:0, instance:qaf.example.tests.Demo@cd1e646]" started-at="2020-04-01T07:38:24 PDT" name="setupTest" finished-at="2020-04-01T07:38:24 PDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setupTest(org.testng.ITestContext)[pri:0, instance:qaf.example.tests.Demo@8519cb4]" started-at="2020-04-02T20:50:59 PDT" name="setupTest" finished-at="2020-04-02T20:50:59 PDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@3561c410]]>
+                <![CDATA[org.testng.TestRunner@5be49b60]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:qaf.example.tests.Demo@cd1e646]" started-at="2020-04-01T07:38:24 PDT" name="setup" finished-at="2020-04-01T07:38:24 PDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:qaf.example.tests.Demo@8519cb4]" started-at="2020-04-02T20:50:59 PDT" name="setup" finished-at="2020-04-02T20:50:59 PDT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@3561c410]]>
+                <![CDATA[org.testng.TestRunner@5be49b60]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:qaf.example.tests.Demo@cd1e646]" started-at="2020-04-01T07:38:24 PDT" name="setupMethod" finished-at="2020-04-01T07:38:24 PDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:qaf.example.tests.Demo@8519cb4]" started-at="2020-04-02T20:50:59 PDT" name="setupMethod" finished-at="2020-04-02T20:50:59 PDT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -54,63 +52,63 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@3561c410]]>
+                <![CDATA[org.testng.TestRunner@5be49b60]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupMethod -->
-        <test-method signature="testGoogleSearch()[pri:0, instance:qaf.example.tests.Demo@cd1e646]" started-at="2020-04-01T07:38:24 PDT" name="testGoogleSearch" finished-at="2020-04-01T07:38:32 PDT" duration-ms="7226" status="PASS">
+        <test-method signature="testGoogleSearch()[pri:0, instance:qaf.example.tests.Demo@8519cb4]" started-at="2020-04-02T20:50:59 PDT" name="testGoogleSearch" finished-at="2020-04-02T20:51:06 PDT" duration-ms="6795" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div></div>]]>
             </line>
           </reporter-output>
         </test-method> <!-- testGoogleSearch -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:qaf.example.tests.Demo@cd1e646]" started-at="2020-04-01T07:38:32 PDT" name="afterMethod" finished-at="2020-04-01T07:38:32 PDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:qaf.example.tests.Demo@8519cb4]" started-at="2020-04-02T20:51:06 PDT" name="afterMethod" finished-at="2020-04-02T20:51:06 PDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@3561c410]]>
+                <![CDATA[org.testng.TestRunner@5be49b60]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=testGoogleSearch status=SUCCESS method=Demo.testGoogleSearch()[pri:0, instance:qaf.example.tests.Demo@cd1e646] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div></div>]]]>
+                <![CDATA[[TestResult name=testGoogleSearch status=SUCCESS method=Demo.testGoogleSearch()[pri:0, instance:qaf.example.tests.Demo@8519cb4] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div></div>]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass(org.testng.ITestContext)[pri:0, instance:qaf.example.tests.Demo@cd1e646]" started-at="2020-04-01T07:38:32 PDT" name="afterClass" finished-at="2020-04-01T07:38:32 PDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass(org.testng.ITestContext)[pri:0, instance:qaf.example.tests.Demo@8519cb4]" started-at="2020-04-02T20:51:06 PDT" name="afterClass" finished-at="2020-04-02T20:51:06 PDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@3561c410]]>
+                <![CDATA[org.testng.TestRunner@5be49b60]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest(org.testng.ITestContext)[pri:0, instance:qaf.example.tests.Demo@cd1e646]" started-at="2020-04-01T07:38:32 PDT" name="afterTest" finished-at="2020-04-01T07:38:32 PDT" duration-ms="76" status="PASS">
+        <test-method is-config="true" signature="afterTest(org.testng.ITestContext)[pri:0, instance:qaf.example.tests.Demo@8519cb4]" started-at="2020-04-02T20:51:06 PDT" name="afterTest" finished-at="2020-04-02T20:51:06 PDT" duration-ms="73" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@3561c410]]>
+                <![CDATA[org.testng.TestRunner@5be49b60]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:qaf.example.tests.Demo@cd1e646]" started-at="2020-04-01T07:38:32 PDT" name="afterSuit" finished-at="2020-04-01T07:38:32 PDT" duration-ms="13" status="PASS">
+        <test-method is-config="true" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:qaf.example.tests.Demo@8519cb4]" started-at="2020-04-02T20:51:06 PDT" name="afterSuit" finished-at="2020-04-02T20:51:06 PDT" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@3561c410]]>
+                <![CDATA[org.testng.TestRunner@5be49b60]]>
               </value>
             </param>
           </params>
@@ -118,6 +116,6 @@
           </reporter-output>
         </test-method> <!-- afterSuit -->
       </class> <!-- qaf.example.tests.Demo -->
-    </test> <!-- JAVA Test -->
-  </suite> <!-- QAF Demo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
