@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-04-19T18:09:21 PDT" name="Default suite" finished-at="2020-04-19T18:09:38 PDT" duration-ms="17736">
+    <groups>
+    </groups>
+    <test started-at="2020-04-19T18:09:21 PDT" name="Default test" finished-at="2020-04-19T18:09:38 PDT" duration-ms="17736">
+      <class name="com.test.base.Base">
+        <test-method is-config="true" signature="Capabilities()[pri:0, instance:com.test.base.Base@3098cf3b]" started-at="2020-04-19T18:09:21 PDT" name="Capabilities" finished-at="2020-04-19T18:09:27 PDT" duration-ms="6499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Capabilities -->
+        <test-method signature="whatsAppTest()[pri:0, instance:com.test.base.Base@3098cf3b]" started-at="2020-04-19T18:09:27 PDT" name="whatsAppTest" finished-at="2020-04-19T18:09:38 PDT" duration-ms="10907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whatsAppTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.test.base.Base@3098cf3b]" started-at="2020-04-19T18:09:38 PDT" name="quitDriver" finished-at="2020-04-19T18:09:38 PDT" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.test.base.Base -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
