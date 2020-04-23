@@ -5,7 +5,8 @@
     <classes>
       <class name="com.test.ios.BaseIOS">
         <methods>
-          <include name="testIos"/>
+          <include name="setCaoabilities"/>
+          <include name="testBrowser"/>
         </methods>
       </class> <!-- com.test.ios.BaseIOS -->
     </classes>
